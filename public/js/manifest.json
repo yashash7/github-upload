@@ -1,0 +1,9 @@
+{
+  "name": "shurl.com",
+  "short_name": "shurl.com",
+  "theme_color": "#2196f3",
+  "background_color": "#0099ff",
+  "display": "fullscreen",
+  "Scope": "/",
+  "start_url": "/",
+}

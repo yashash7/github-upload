@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="og:type" content="website">
+  	<meta name="og:title" content="shurl.com - URL shortener"> 
+  	<meta name="description" content="shurl.com is a free URL shortening service that enables you to shorten your long URLs to shurl.com/unique_name. Make yourself stress-free, leave the mess of managing long URL's to us. ">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="manifest" href="/js/manifest.json">
+	<title>shurl.com - URL shortner</title>
+</head>
+
+<body>
+	<header class="header">
+			<ul>
+				<li> <i class="fa fa-link"></i>&nbsp; ShURL&nbsp; Made&nbsp; with&nbsp; <i class="fa fa-heart"></i>&nbsp; by&nbsp; 
+					<a href="https://github.com/svarpy"> Svarpy&nbsp; </a> 
+					<span style="float: right; margin-right: 25px;">
+						<i class="fa fa-github" style="font-size: x-large;"></i> <a href="https://github.com/aolamide/url-shortener"> Olamide </a> &nbsp;
+						<i class="fa fa-github" style="font-size: x-large;"></i> <a href="https://github.com/svarpy/shurl"> Svarpy </a>
+					</span>
+				</li>
+			</ul>
+	</header>
+	<section class="section-1">
+		<div class="header-content">
+			<div class="header-text">
+				<h2>Shorter links <br> + unique names</h2><br>
+				<p>Can't remember long URLs, tired with the mess of managing long urls and links, here's the solution!
+					&nbsp;You can shorten those messy links/URLs with your own text for free.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="short">
+		<form id='url-form'>
+			<div class="form-control">
+				<div class="input1">
+					<h3> Copy the long URL/Link and paste it here</h3>
+					<input type="url" name="shorten" placeholder="Paste original link *" required id='original-url'>
+				</div>
+				<div class="input2">
+					<span class="shorten-shurl">shurl.com/</span>
+					<input type="text" name="shorten" placeholder="Your_Text" required id='unique-name' 
+						style="border-top-left-radius: 0; border-bottom-left-radius: 0; border-left: 0px;">
+				</div>
+			</div>
+			<div id="status">
+				<button class="btn-shorten">Shorten Link</button>
+			</div>
+			<p id="confirmationShow"></p>
+      <input id="confirmation"></input>
+      <button style="display: none;" type="button" id="copyButton">Copy Link</button>
+		</form>
+	</section>
+	
+	 <section class="section-4">
+	 	<div class="boost-link">
+	 		
+	 	</div>
+	 </section>
+	 <footer class="footer">
+		<h3> 
+			<span> &copy; ShURL &nbsp;&nbsp; </span>
+			<span class="w3-display-bottommiddle"></span>Built with love by <a href="https://twitter.com/olamideaboyeji">Olamide Aboyeji</a>. Front-End by <a href="https://twitter.com/oyefesotunmise">Oyefeso Oluwatunmise</a> and 
+				<a href="https://github.com/svarpy/">Svarpy</a>
+			</span>
+		</h3>
+	 </footer>
+	 <script src="js/main.js"></script>
+   <script src="js/pwa.js"></script>
+</body>
+</html>
